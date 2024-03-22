@@ -1,4 +1,4 @@
- <!-- Main Sidebar Container -->
+<!-- Main Sidebar Container -->
  <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
@@ -14,7 +14,7 @@
           <img src="dist/img/avatar4.png" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Miatul Nabilla</a>
+          <a href="#" class="d-block">Nurhasanah</a>
         </div>
       </div>
 
