@@ -45,13 +45,13 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="nilai.php" class="nav-link">
+                <a href="form.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Form pasien</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="praktikum2.php" class="nav-link">
+                <a href="pasien.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Pasien</p>
                 </a>
