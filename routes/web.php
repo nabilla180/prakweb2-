@@ -19,7 +19,7 @@ Route::get('/profil', function () {
 Route::get('/about', function () {
     $data = [
         'nama' => 'Miatul Nabilla',
-        'nim' => '',
+        'nim' => '0110223239',
         'program_studi' => 'Teknik Informatika',
         'tahun_angkatan' => '2023'
     ];
