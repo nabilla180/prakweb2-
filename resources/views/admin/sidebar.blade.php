@@ -16,8 +16,19 @@
                       alt="User Image">
               </div>
               <div class="info">
-                  <a href="#" class="d-block">Alexander Pierce</a>
+                    @auth
+                    @if (Auth::check())
+                  <div class="info"></div>
+                  <a href=" {{ route ('profile.edit') }}" class="d-block">
+                    {{strtoupper(Auth::user()->name) ?? " " }}
+                  </a>
+                  <span class="text-primary"> Role: {{ Auth::user()->role }}</span>
               </div>
+              @endif
+              @endauth
+              @guest
+              <a href="#" class="d-block">Guest</a>
+              @endguest
           </div>
 
           <!-- SidebarSearch Form -->
